@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/workspace/CarND-Capstone/ros/devel/setup.sh
+    local-name: /home/workspace/CarND-Self-Driving-ROS/ros/devel/setup.sh

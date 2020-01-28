@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/workspace/CarND-Self-Driving-ROS/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/workspace/CarND-Self-Driving-ROS/ros/build
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build: 
 .PHONY : waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 
 waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/workspace/CarND-Capstone/ros/build/waypoint_follower && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/workspace/CarND-Self-Driving-ROS/ros/build/waypoint_follower && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/workspace/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/CarND-Capstone/ros/src /home/workspace/CarND-Capstone/ros/src/waypoint_follower /home/workspace/CarND-Capstone/ros/build /home/workspace/CarND-Capstone/ros/build/waypoint_follower /home/workspace/CarND-Capstone/ros/build/waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/CarND-Self-Driving-ROS/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/CarND-Self-Driving-ROS/ros/src /home/workspace/CarND-Self-Driving-ROS/ros/src/waypoint_follower /home/workspace/CarND-Self-Driving-ROS/ros/build /home/workspace/CarND-Self-Driving-ROS/ros/build/waypoint_follower /home/workspace/CarND-Self-Driving-ROS/ros/build/waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : waypoint_follower/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

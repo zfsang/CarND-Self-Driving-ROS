@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/CarND-Capstone/ros/src
+CMAKE_SOURCE_DIR = /home/workspace/CarND-Self-Driving-ROS/ros/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/CarND-Capstone/ros/build
+CMAKE_BINARY_DIR = /home/workspace/CarND-Self-Driving-ROS/ros/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/buil
 .PHONY : camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/workspace/CarND-Capstone/ros/build/camera_info_publisher && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/workspace/CarND-Self-Driving-ROS/ros/build/camera_info_publisher && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/workspace/CarND-Capstone/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/CarND-Capstone/ros/src /home/workspace/CarND-Capstone/ros/src/camera_info_publisher /home/workspace/CarND-Capstone/ros/build /home/workspace/CarND-Capstone/ros/build/camera_info_publisher /home/workspace/CarND-Capstone/ros/build/camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/CarND-Self-Driving-ROS/ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/CarND-Self-Driving-ROS/ros/src /home/workspace/CarND-Self-Driving-ROS/ros/src/camera_info_publisher /home/workspace/CarND-Self-Driving-ROS/ros/build /home/workspace/CarND-Self-Driving-ROS/ros/build/camera_info_publisher /home/workspace/CarND-Self-Driving-ROS/ros/build/camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : camera_info_publisher/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/workspace/CarND-Capstone/ros/install
+prefix=/home/workspace/CarND-Self-Driving-ROS/ros/install
 
 Name: waypoint_loader
 Description: Description of waypoint_loader
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/workspace/CarND-Capstone/ros/install/lib 
+Libs: -L/home/workspace/CarND-Self-Driving-ROS/ros/install/lib 
 Requires: 
