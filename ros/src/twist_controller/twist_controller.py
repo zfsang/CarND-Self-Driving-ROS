@@ -48,5 +48,5 @@ class Controller(object):
             throttle = 0
             decel = max(vel_error, self.decel_limit)
             brake = abs(decel) - self.vehicle_mass*self.wheel_radius
-        return throttle, brake, steering
-#         return 1., 0., 0.
+        # return throttle, brake, steering
+        return 1., 0., 0.
