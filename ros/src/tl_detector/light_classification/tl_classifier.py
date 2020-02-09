@@ -17,3 +17,4 @@ class TLClassifier(object):
         """
         #TODO implement light color prediction
         return TrafficLight.UNKNOWN
+#         return TrafficLight.RED
